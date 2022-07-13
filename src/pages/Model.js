@@ -1,10 +1,10 @@
 import React from 'react'
+import Stock from '../components/Stock'
 
 function Model() {
   return (
     <div className='model'>
-      <h1>Model</h1>
-
+      <Stock/>
     </div>
   )
 }
