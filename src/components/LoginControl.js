@@ -10,8 +10,9 @@ class LoginControl extends React.Component {
   
     // change showing A
     handleClick() {
-      const showingA = this.state.showingA
-      this.setState({showingA: !showingA});
+      // const showingA = this.state.showingA
+      // this.setState({showingA: !showingA});
+      this.setState({showingA: !this.state.showingA});
     }
   
     //logincontrol rendering
