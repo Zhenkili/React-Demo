@@ -62,6 +62,7 @@ class Stock extends React.Component {
             }
           ]}
           layout={{width: 720, height: 440, title: 'IBM Stock'}}
+          //bootstrap-react
         />
       </div>
     )

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Button, Container } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class LoginControl extends React.Component {
     constructor(props) {
@@ -36,8 +38,11 @@ class LoginControl extends React.Component {
       //how the logincontrol looks like
       return (
         <div>
-          <h1>String {num} = {str}</h1>
-          {button}
+          <Container>
+            <h1>String {num} = {str}</h1>
+            <p>{button}</p>
+            <Button onClick={this.handleClick}> Test Button String{num}</Button>
+          </Container>
         </div>
       );
     }
